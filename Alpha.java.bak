@@ -1,0 +1,10 @@
+class Alpha
+{
+	private int x;
+	void print() 
+	{
+		int y=10;
+		System.out.println(this.x);
+		System.out.println(y);
+	}
+}

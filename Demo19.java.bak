@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class Demo19 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan =new Scanner(System.in);
+		System.out.println("input 3 subject marks");
+		int sub1=scan.nextInt();
+		int sub2=scan.nextInt();
+		int sub3=scan.nextInt();
+		if (sub1>=90)
+		if (sub2>=70)
+		if (sub3>=30)
+		 System.out.println("1st class");
+		else
+			System.out.println("2nd class");
+	}
+}

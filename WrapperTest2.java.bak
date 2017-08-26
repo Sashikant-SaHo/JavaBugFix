@@ -1,0 +1,14 @@
+class WrapperTest2 
+{
+	public static void main(String[] args) 
+	{
+		String s="50";
+		int n=Integer.parseInt(s);
+		String p="1.5f";
+		float f=Float.parseFloat(f);
+		double d=Double.parseDouble(d);
+		System.out.println(n);
+		System.out.println(f);
+		System.out.println(d);
+	}
+}

@@ -1,0 +1,41 @@
+class   Employee
+{
+	private int empno;
+	private String ename;
+	Employee(int empno,String ename)
+	{
+		this.empno=empno;
+		this.ename=ename;
+	}
+	int getEmpno()
+	{
+		return empno;
+	}
+	String getEname()
+	{
+		return ename;
+	}
+}
+class CommEmployee extends Employee
+{
+	private float comm;
+	CommEmployee(int empno,String ename,float comm)
+	{
+		super(empno,ename);
+		this.comm=comm;
+	}
+	float getComm()
+	{
+		return comm;
+	}
+}
+class SuperTest
+{
+	public static void main(String[] args) 
+	{
+		CommEmployee emp1=new CommEmployee();
+		System.out.println(emp1.getEmpno());
+		System.out.println(emp1.getEname());
+		System.out.println(emp1.getComm());
+	}
+}

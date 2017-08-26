@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class Demo17 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Input two numbers");
+		int n1=scan.nextInt();
+		int n2=scan.nextInt();
+		if (n1>n2)
+		System.out.println("max number is n1");
+		else
+			System.out.println("max number is n2");
+	}
+}
